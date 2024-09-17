@@ -1,0 +1,48 @@
+
+/*鼠标样式动画*/
+body{
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size:cover;
+     cursor: url(../images/cursor.ico),auto;
+}
+
+/*背景图片*/
+body {
+color: #000;
+background: url(../images/o_21040708544522.jpg) fixed;
+background-size: 100%;
+background-repeat: no-repeat;
+font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+min-height: 101%;
+}
+
+canvas#live2dcanvas {
+border: 0 !important;
+right: 0;
+}
+
+/* 设置签名格式 定制css样式 */
+#MySignature{　　
+ border:solid 1px #E5E5E5;
+ padding:25px;
+ background:#E5EEF7 url(../images/o_210708095553tx.jpeg) no-repeat scroll 25px 50%;
+ padding-left:80px;}
+
+#MySignature div{
+  line-height: 10px;
+}
+
+
+/* 定制返回顶部按键 */
+#toTop {
+    background: url(../images/o_totop.bmp) no-repeat 0px top;
+    width: 57px;
+    height: 57px;
+    overflow: hidden;
+    position: fixed;
+    right: 180px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
